@@ -13,8 +13,7 @@ class Command {
       .options({
         verbose: {
           alias: 'v',
-          desc: '显示详尽的日志信息',
-          default: false
+          desc: '显示详尽的日志信息'
         }
       })
       .commandDir('./cmds')

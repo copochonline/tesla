@@ -1,0 +1,18 @@
+{
+  "name": "@copoch/check-version",
+  "version": "0.0.1",
+  "description": "验证 & 更新包版本本地缓存，用于验证是否有新版本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "check",
+    "version"
+  ],
+  "author": "yulin",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "semver": "^5.4.1"
+  }
+}

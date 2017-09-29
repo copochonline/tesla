@@ -1,0 +1,14 @@
+{
+  "name": "@copoch/tesla-template-middleware",
+  "version": "0.0.1",
+  "description": "新建 中间件 的初始化样板代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "middleware"
+  ],
+  "author": "yulin",
+  "license": "Apache-2.0"
+}

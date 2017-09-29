@@ -1,0 +1,15 @@
+{
+  "name": "@copoch/console",
+  "version": "0.0.1",
+  "description": "控制台日志加强",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "console",
+    "enhancement"
+  ],
+  "author": "yulin",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@copoch/tesla-template-react",
+  "version": "0.0.1",
+  "description": "面向 React 的初始化样板代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "boilerplate"
+  ],
+  "author": "yulin",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
+    "redux-undo": "^0.6.1",
+    "reselect": "^3.0.1"
+  }
+}
