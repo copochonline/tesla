@@ -3,12 +3,8 @@
   "packages": [
     "packages/*"
   ],
-  "commands": {
-    "publish": {
-      "npmClientArgs": [
-        "--access=public"
-      ]
-    }
-  },
-  "version": "0.0.4-0"
+  "version": "0.0.5-0",
+  "npmClientArgs": [
+    "--access=public"
+  ]
 }
