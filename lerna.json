@@ -4,12 +4,11 @@
     "packages/*"
   ],
   "commands": {
-    "bootstrap": {
-      "scope": "copoch",
+    "publish": {
       "npmClientArgs": [
         "--access=public"
       ]
     }
   },
-  "version": "0.0.3-0"
+  "version": "0.0.4-0"
 }
