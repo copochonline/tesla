@@ -5,8 +5,11 @@
   ],
   "commands": {
     "bootstrap": {
-      "scope": "copoch"
+      "scope": "copoch",
+      "npmClientArgs": [
+        "--access=public"
+      ]
     }
   },
-  "version": "0.0.2-0"
+  "version": "0.0.3-0"
 }
