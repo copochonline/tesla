@@ -1,0 +1,16 @@
+{
+  "name": "@copoch/lerna-hoist-monorepo",
+  "version": "0.0.1",
+  "description": "控制台日志加强",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yulin",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk-animation": "^1.2.0",
+    "console.table": "^0.9.1",
+    "ora": "^1.3.0"
+  }
+}

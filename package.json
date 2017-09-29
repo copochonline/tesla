@@ -2,13 +2,13 @@
   "name": "@copoch/tesla",
   "version": "0.0.3",
   "description": "a lightweight front-end system for construction solutions",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "hoist:packages": "node ./3rdlib/lerna-hoist-monorepo/lib/index.js"
   },
   "bin": {
-    "sc": "bin/cli",
-    "tesla": "bin/cli"
+    "sc": "./bin/cli",
+    "tesla": "./bin/cli"
   },
   "configs": {
     "cacheTTL": 3600000
@@ -33,12 +33,14 @@
   "devDependencies": {
     "debug": "^3.1.0",
     "del": "^3.0.0",
+    "lerna": "^2.2.0",
+    "lerna-changelog": "^0.6.0",
     "mkdirp": "^0.5.1",
     "ntils": "^2.1.2",
     "require-dir": "^0.3.2",
     "yargs": "^9.0.1"
   },
   "dependencies": {
-    "lerna": "^2.2.0"
+    "@copoch/tesla-template-html5": "^0.0.1"
   }
 }

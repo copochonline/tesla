@@ -1,5 +1,6 @@
 # Custom
-/packages/*/node_modules/
+packages/*/node_modules/
+3rdlib/*/node_modules/
 
 # Logs
 logs

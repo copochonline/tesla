@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-const console = require('')
+const checkVersion = require('@copoch/tesla-template-html5')
+// const console = require('')
 // const Command = require('../extra/command')
 // const pkg = require('../package.json')
 
