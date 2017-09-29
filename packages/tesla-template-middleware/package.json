@@ -1,6 +1,6 @@
 {
   "name": "@copoch/tesla-template-middleware",
-  "version": "0.0.1",
+  "version": "0.0.1-0",
   "description": "新建 中间件 的初始化样板代码",
   "main": "index.js",
   "scripts": {

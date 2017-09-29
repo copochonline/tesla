@@ -1,6 +1,6 @@
 {
   "name": "@copoch/tesla-template-vue",
-  "version": "0.0.1",
+  "version": "0.0.1-0",
   "description": "面向 Vue 的初始化样板代码",
   "main": "index.js",
   "scripts": {
