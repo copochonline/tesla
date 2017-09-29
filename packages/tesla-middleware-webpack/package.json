@@ -1,6 +1,6 @@
 {
   "name": "@copoch/tesla-middleware-webpack",
-  "version": "0.0.5-0",
+  "version": "0.0.6-0",
   "description": "webpack 中间件",
   "main": "./lib/index.js",
   "scripts": {
