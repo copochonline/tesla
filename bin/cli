@@ -1,20 +1,18 @@
 #!/usr/bin/env node
 
-const console = require('../extra/console')
-const Command = require('../extra/command')
-const pkg = require('../package.json')
+const console = require('')
+// const Command = require('../extra/command')
+// const pkg = require('../package.json')
 
-const semver = require('semver')
-const debug = require('debug')('cli')
+// const semver = require('semver')
+// const debug = require('debug')('cli')
 
-debug('process.version', pkg.version)
-debug('pkg.engines.node', pkg.engines.node)
+// debug('process.version', pkg.version)
+// debug('pkg.engines.node', pkg.engines.node)
 
-if (!semver.satisfies(process.version, pkg.engines.node)) {
-  return console.error([`The Node version requirement is ${pkg.engines.node}`,
-  `but the current version is ${process.version}`].join(', '))
-}
+// if (!semver.satisfies(process.version, pkg.engines.node)) {
+//   return console.error([`The Node version requirement is ${pkg.engines.node}`,
+//   `but the current version is ${process.version}`].join(', '))
+// }
 
-debug('process.argv', process.argv)
-
-new Command
+// debug('process.argv', process.argv)

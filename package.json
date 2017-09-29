@@ -26,19 +26,15 @@
     "url": "https://github.com/copochonline/tesla/issues"
   },
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=8.4.0",
+    "npm": ">=5.4.2"
   },
   "homepage": "https://github.com/copochonline/tesla#readme",
   "devDependencies": {
-    "chalk-animation": "^1.2.0",
-    "cify": "^2.1.11",
-    "cmdline": "^2.0.3",
-    "console.table": "^0.9.1",
     "debug": "^3.1.0",
     "del": "^3.0.0",
     "mkdirp": "^0.5.1",
     "ntils": "^2.1.2",
-    "ora": "^1.3.0",
     "require-dir": "^0.3.2",
     "yargs": "^9.0.1"
   },

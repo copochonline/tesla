@@ -1,3 +1,4 @@
+const checkVersion = require('check-version')
 const ConsoleBase = console.Console
 const ora = require('ora')
 const chalkAnimation = require('chalk-animation')
