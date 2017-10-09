@@ -17,3 +17,34 @@
 // }
 
 // debug('process.argv', process.argv)
+
+const chalk = require('chalk')
+const sudoBlock = require('sudo-block')
+const cliList = require('cli-list')
+const pkg = require('../package.json')
+const gens = cliList(process.argv.slice(2))
+
+// downgrade permissions
+sudoBlock('\n' + chalk.red('Easy with the `sudo`. Tesla is the master around here.') + '\n\nSince yo is a user command, there is no need to execute it with root\npermissions. If you\'re having permission errors when using yo without sudo,\nplease spend a few minutes learning more about how your system should work\nand make any necessary repairs.\n\nA quick solution would be to change where npm stores global packages by\nputting ~/npm/bin in your PATH and running:\n' + chalk.blue('npm config set prefix ~/npm') + '\n\nSee: https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md')
+
+const meow = require('meow');
+ 
+const cli = meow(`
+    Usage
+      $ foo <input>
+ 
+    Options
+      -r, --rainbow  Include a rainbow
+ 
+    Examples
+      $ foo unicorns --rainbow
+      🌈 unicorns 🌈
+`, {
+    alias: {
+        r: 'rainbow'
+    }
+})
+
+console.log(cli)
+
+

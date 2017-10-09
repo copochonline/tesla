@@ -1,5 +1,5 @@
 
-Usage: sc <command> [options] [args]
+Usage: tesla <command> [options] [args]
 
 Commands:
   i, init           Initialize a dawn project
@@ -20,11 +20,19 @@ Options:
   -v, --version     Display the current version of CLI
   -h, --help        Display cli help information
 
+Troubleshooting:
+
+  For any issues, try running
+
+  $ tesla doctor
+
 Examples:
 
-  # Create a project
-  mkdir demo && cd demo
-  sc init
+  Create a project
+  
+  $ mkdir demo && cd demo
+  $ tesla init
 
-  # Build a project
-  sc build
+  Build a project
+  
+  $ tesla build
