@@ -33,14 +33,13 @@
   "devDependencies": {
     "debug": "^3.1.0",
     "del": "^3.0.0",
-    "lerna": "^2.2.0",
+    "lerna": "^2.4.0",
     "lerna-changelog": "^0.6.0",
     "mkdirp": "^0.5.1",
-    "ntils": "^2.1.2",
     "require-dir": "^0.3.2",
     "yargs": "^9.0.1"
   },
   "dependencies": {
-    "@copoch/tesla-template-html5": "^0.0.1"
+    "cross-env": "^5.0.5"
   }
 }

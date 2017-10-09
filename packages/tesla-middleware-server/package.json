@@ -1,0 +1,18 @@
+{
+  "name": "@copoch/tesla-middleware-server",
+  "version": "0.0.1",
+  "description": "服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "yulin",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "pm2": "^2.7.1"
+  }
+}
