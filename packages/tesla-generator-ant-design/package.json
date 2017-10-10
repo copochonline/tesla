@@ -1,5 +1,5 @@
 {
-  "name": "@copoch/tesla-webapp-ant-design",
+  "name": "@copoch/tesla-generator-ant-design",
   "version": "0.0.1-0",
   "description": "基于 ant-design 的 webapp",
   "main": "index.js",
