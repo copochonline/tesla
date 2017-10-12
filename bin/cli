@@ -18,14 +18,14 @@
 
 // debug('process.argv', process.argv)
 
-const chalk = require('chalk')
-const sudoBlock = require('sudo-block')
-const cliList = require('cli-list')
-const pkg = require('../package.json')
-const gens = cliList(process.argv.slice(2))
+// const chalk = require('chalk')
+// const sudoBlock = require('sudo-block')
+// const cliList = require('cli-list')
+// const pkg = require('../package.json')
+// const gens = cliList(process.argv.slice(2))
 
 // downgrade permissions
-sudoBlock('\n' + chalk.red('没必要使用 root 权限') + '\n')
+// sudoBlock('\n' + chalk.red('没必要使用 root 权限') + '\n')
 
 
 

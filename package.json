@@ -40,12 +40,14 @@
     "yargs": "^9.0.1"
   },
   "dependencies": {
-    "cross-env": "^5.0.5",
     "chalk": "^2.1.0",
     "cli-list": "^0.2.0",
+    "cross-env": "^5.0.5",
+    "js-yaml": "^3.10.0",
     "meow": "^3.7.0",
     "sudo-block": "^2.0.0",
     "tabtab": "^2.2.2",
+    "typescript": "^2.5.3",
     "update-notifier": "^2.2.0"
   }
 }
