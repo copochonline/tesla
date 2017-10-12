@@ -4,11 +4,14 @@
   "description": "a lightweight front-end system for construction solutions",
   "main": "./lib/index.js",
   "scripts": {
-    "hoist:packages": "node ./3rdlib/lerna-hoist-monorepo/lib/index.js"
+    "hoist:packages": "node ./3rdlib/lerna-hoist-monorepo/lib/index.js",
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "mocha"
   },
   "bin": {
-    "sc": "./bin/cli",
-    "tesla": "./bin/cli"
+    "sc": "./bin/cli.js",
+    "tesla": "./bin/cli.js"
   },
   "configs": {
     "cacheTTL": 3600000
@@ -31,22 +34,28 @@
   },
   "homepage": "https://github.com/copochonline/tesla#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
     "debug": "^3.1.0",
     "del": "^3.0.0",
     "lerna": "^2.4.0",
     "lerna-changelog": "^0.6.0",
     "mkdirp": "^0.5.1",
+    "mocha": "^4.0.1",
+    "mochawesome": "^2.3.1",
     "require-dir": "^0.3.2",
     "yargs": "^9.0.1"
   },
   "dependencies": {
+    "@types/node": "^8.0.34",
     "chalk": "^2.1.0",
     "cli-list": "^0.2.0",
     "cross-env": "^5.0.5",
+    "fs-extra": "^4.0.2",
     "js-yaml": "^3.10.0",
     "meow": "^3.7.0",
     "sudo-block": "^2.0.0",
     "tabtab": "^2.2.2",
+    "ts-node": "^3.3.0",
     "typescript": "^2.5.3",
     "update-notifier": "^2.2.0"
   }

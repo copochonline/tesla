@@ -1,0 +1,4 @@
+-r ./node_modules/ts-node/register
+-R mochawesome
+-O reportDir=dist/test-report,reportFilename=tesla,reportTitle=Tesla,reportPageTitle=Tesla
+-w
